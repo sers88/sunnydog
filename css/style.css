@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+}
+nav{
+    width: 1720px;
+    height: 164px;
+    background: rgba(5, 168, 139, 0.52);
+    margin: 0 100px;
+    /*transform: matrix(1, 0, 0, -1, 0, 0);*/
+    vertical-align: middle;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.vetText{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+    float: left;
+}
+h2{
+    font-size: 20px;
+    text-align: left;
+    float: left;
+}
+.search{
+    float: right;
+    border-radius: 50%;
+}
+header li {
+    display: inline;
+    padding: 20px 10px;
+}
+main article{
+    display: inline;
+    vertical-align: middle;
+}
+.attendance{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: linear-gradient(to top,rgba(5, 168, 139, 0.52), white 100%);
+    margin: 5px;
+    margin: 0 100px;
+}
+.backimg{
+    margin: 10px;
+}
+.backimg figure img{
+    width: 307px;
+    height: 265px;
+}
+footer li{
+    display: inline;
+    padding: 20px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6C5151;
+    position: relative;
+    top: 50px;
+}
+.polypet{
+    width: 1285px;
+    height: auto;
+    margin: 0 100px;
+    margin-top: 10px;
+
+}
+h1{
+    display: block;
+    width: 1575px;
+    height: 133px;
+    font-family: Redacted Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.7);
+    transform: rotate(0deg);
+    margin: 0 100px;
+}
+footer{
+    width: 1720px;
+    height: 165px;
+    background: #7DD2C3;
+    margin: 0 100px;
+    position: relative;
+}
+footer li{
+    float: right;
+}
+.footNav{
+    float: left;
+}
+figcaption{
+    color: #6C5151;
+}
+.redbg{
+    background: rgba(223, 33, 33, 0.7);
+    border-radius: 26px;
+    color: #E5E5E5;
+    margin: 20px;
+    padding: 0 20px;
+}
+.topmarg{
+    margin-top: 150px;
+    position: relative;
+}
