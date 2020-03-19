@@ -2,6 +2,7 @@ body{
     text-align: center;
 }
 nav{
+    position: relative;
     width: 1720px;
     height: 164px;
     background: rgba(5, 168, 139, 0.52);
@@ -18,20 +19,35 @@ nav{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 30px;
     text-align: left;
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.5);
     float: left;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.vetZoo{
+    position: absolute;
+    top: 40px;
+    left: 50px;
 }
 h2{
-    font-size: 20px;
+    font-size: 70px;
     text-align: left;
     float: left;
+    letter-spacing: 0.03em;
+    color: #1B321A;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 .search{
     float: right;
-    border-radius: 50%;
+    position: relative;
+    top: 20px;
 }
 header li {
     display: inline;
@@ -45,7 +61,7 @@ main article{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: linear-gradient(to top,rgba(5, 168, 139, 0.52), white 120%);
+    background: linear-gradient(to top,rgba(5, 168, 139, 0.52), white 100%);
     margin: 5px;
     margin: 0 100px;
 }
@@ -115,6 +131,9 @@ figcaption{
     padding: 0 20px;
 }
 .topmarg{
-    margin-top: 150px;
+    top: 50px;
     position: relative;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
 }
