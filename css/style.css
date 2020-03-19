@@ -45,7 +45,7 @@ main article{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: linear-gradient(to top,rgba(5, 168, 139, 0.52), white 100%);
+    background: linear-gradient(to top,rgba(5, 168, 139, 0.52), white 120%);
     margin: 5px;
     margin: 0 100px;
 }
